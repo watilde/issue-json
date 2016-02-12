@@ -2,10 +2,6 @@
   "title": "Write a title here",
   "fields": [
     {
-      "label": "Title",
-      "type" : "text",
-      "placeholder": "Title"
-    }, {
       "label": "Description",
       "type" : "textarea",
       "placeholder": "Leave a comment"
