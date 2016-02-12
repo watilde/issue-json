@@ -1,0 +1,25 @@
+{
+  "title": "write a title here",
+  "fields": [
+    {
+      "label": "hello text area",
+      "type" : "text"
+    },
+    {
+      "label": "hello text area",
+      "type" : "textarea"
+    },
+    {
+      "label": "hello checkbox",
+      "type" : "checkbox",
+      "value": ["5.0", "0.12.9", "0.10.5"],
+      "selected": [0, 2]
+    },
+    {
+      "label": "hello radio button",
+      "type" : "radio",
+      "value": ["5.0", "0.12.9", "0.10.5"],
+      "selected": 0
+    }
+  ]
+}
