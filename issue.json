@@ -1,25 +1,26 @@
 {
-  "title": "write a title here",
+  "title": "Write a title here",
   "fields": [
     {
-      "label": "hello text area",
-      "type" : "text"
-    },
-    {
-      "label": "hello text area",
-      "type" : "textarea"
-    },
-    {
-      "label": "hello checkbox",
-      "type" : "checkbox",
-      "value": ["5.0", "0.12.9", "0.10.5"],
-      "selected": [0, 2]
-    },
-    {
-      "label": "hello radio button",
+      "label": "Title",
+      "type" : "text",
+      "placeholder": "Title"
+    }, {
+      "label": "Description",
+      "type" : "textarea",
+      "placeholder": "Leave a comment"
+    }, {
+      "label": "Error log(gist URL)",
+      "type" : "text",
+      "placeholder": "https://gist.github.com"
+    }, {
+      "label": "Versions",
       "type" : "radio",
-      "value": ["5.0", "0.12.9", "0.10.5"],
-      "selected": 0
+      "value": ["0.12.0", "4.0.0", "5.0.0"]
+    }, {
+      "label": "Language",
+      "type" : "checkbox",
+      "value": ["en", "fr", "nl", "ja"]
     }
   ]
 }
