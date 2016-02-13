@@ -6,7 +6,7 @@
       "type" : "text",
       "placeholder": "https://gist.github.com"
     }, {
-      "label": "Reproduce",
+      "label": "How to reproduce it",
       "type" : "textarea",
       "placeholder": "1. clear cache"
     }, {
