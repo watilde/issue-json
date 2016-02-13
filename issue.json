@@ -2,13 +2,13 @@
   "title": "Write a title here",
   "fields": [
     {
-      "label": "Description",
-      "type" : "textarea",
-      "placeholder": "Leave a comment"
-    }, {
       "label": "Error log(gist URL)",
       "type" : "text",
       "placeholder": "https://gist.github.com"
+    }, {
+      "label": "Reproduce",
+      "type" : "textarea",
+      "placeholder": "1. clear cache"
     }, {
       "label": "Versions",
       "type" : "radio",
