@@ -2,13 +2,25 @@
   "title": "Write a title here",
   "fields": [
     {
-      "label": "Error log(gist URL)",
+      "label": "Required input[type='text']",
       "type" : "text",
-      "placeholder": "https://gist.github.com"
+      "placeholder": "https://gist.github.com",
+      "required": true
     }, {
-      "label": "How to reproduce it",
+      "label": "input[type='text']",
+      "type" : "text",
+      "placeholder": "https://gist.github.com",
+      "required": false
+    }, {
+      "label": "Required textarea",
       "type" : "textarea",
-      "placeholder": "1. clear cache"
+      "placeholder": "1. clear cache",
+      "required": true
+    }, {
+      "label": "textarea",
+      "type" : "textarea",
+      "placeholder": "1. clear cache",
+      "required": false
     }, {
       "label": "Versions",
       "type" : "radio",
